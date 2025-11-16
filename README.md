@@ -45,4 +45,5 @@
 ### 5. Referências
 
   LARAVEL. Documentation. Disponível em: https://laravel.com/docs/11.x. Acesso em: 15 nov. 2025.
+  
   REACT. Documentation. Disponível em: https://react.dev/learn. Acesso em: 15 nov. 2025.
