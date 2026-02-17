@@ -49,14 +49,14 @@ const CreateFalecido = () => {
 
   return (
     <>
-      <div className="px-6 py-6">
+      <div className="px-6 py-6 bg-slate-50">
         <div>
           <h1 className="text-2xl font-bold text-slate-900">Cadastrar Novo Sepultamento</h1>
           <p className="text-slate-600 text-sm mt-1">Preencha os dados do falecido e informações do sepultamento</p>
         </div>
       </div>
 
-      <form onSubmit={handleCreateFalecido} className="container px-6 pb-8">
+      <form onSubmit={handleCreateFalecido} className="container px-6 pb-8 bg-slate-50">
         <div className="w-full p-2">
           <label
             htmlFor="nome"

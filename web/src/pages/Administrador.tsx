@@ -64,14 +64,14 @@ const Administrador = () => {
 
   return (
     <>
-      <div className="px-6 py-6">
+      <div className="px-6 py-6 bg-slate-50">
         <div>
           <h1 className="text-2xl font-bold text-slate-900">Dados do Administrador do Sistema</h1>
           <p className="text-slate-600 text-sm mt-1">Mantenha seus dados atualizados</p>
         </div>
       </div>
 
-      <form onSubmit={handleUpdateAdministrador} className="container px-6 pb-8">
+      <form onSubmit={handleUpdateAdministrador} className="container px-6 pb-8 bg-slate-50">
         <div className="w-full p-2">
           <label
             htmlFor="nome"

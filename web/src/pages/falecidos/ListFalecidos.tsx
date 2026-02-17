@@ -50,7 +50,7 @@ const ListFalecidos = () => {
 
   return (
     <>
-        <div className="flex items-center justify-between px-6 py-6">
+        <div className="flex items-center justify-between px-6 py-6 bg-slate-50">
           <div>
             <h1 className="text-2xl font-bold text-slate-900">Gerenciamento de Sepultamentos</h1>
             <p className="text-slate-600 text-sm mt-1">Cadastro e controle de falecidos e sepultamentos</p>
@@ -64,7 +64,7 @@ const ListFalecidos = () => {
           </Link>
         </div>
 
-        <div className="px-6 py-6">
+        <div className="px-6 py-6 bg-slate-50 min-h-screen">
           <div className="bg-white rounded-lg shadow-md p-6">
             <h2 className="text-lg font-bold text-slate-900 mb-1">Registros de Sepultamentos</h2>
             <p className="text-slate-600 text-xs mb-4">Lista completa de todos os sepultamentos cadastrados</p>

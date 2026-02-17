@@ -107,7 +107,7 @@ function Relatorios() {
 
   return (
     <Fragment>
-      <div className="px-6 py-6">
+      <div className="px-6 py-6 bg-slate-50 min-h-screen">
         <div className="mb-8">
           <h1 className="text-2xl font-bold text-slate-900">Relatórios</h1>
           <p className="text-slate-600 text-sm mt-1">Análise detalhada e estatística do cemitério</p>
